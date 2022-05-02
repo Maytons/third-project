@@ -1,0 +1,160 @@
+*{
+padding: 0; margin: 0;
+}
+.nav {width: 90%; margin: auto; display: flex; align-items: center; justify-content: space-between;
+     
+}
+.nav-head {
+    box-shadow: 0 1px 5px 2px #f5f5f5; position: relative; height: 132px;
+}
+.menu_1 {width: 15%;}
+.menu_1 img {width: 60%; margin-top: 20px;}
+.menu_2 { width: 85%; line-height: 50px;}
+.sec_1 {
+    display: flex; justify-content: space-between; align-items: center; width: 96%;
+}
+.sec_1 ul{list-style-type: none; display: flex; align-items: center; justify-content: space-between;}
+.ul_img { height: 18px; margin-right: 5px; margin-top: 20px;}
+.ul_2 { display: flex; align-items: center;}
+.ul_2 a{ 
+    text-decoration: none; font-family: RobotoDraft,arial,sans-serif; color: #424242; font-size: 0.8em;
+}
+.ul_list a{text-decoration: none; font-family: RobotoDraft,arial,sans-serif; color: #424242;
+    font-size: 0.8em;}
+.ul_first { width: 30%;}
+.ul_second { width: 50%; margin-right: 40px;}
+.but { width: 130px; height: 40px; background-color: #ffbc0d; border-radius: 5px;
+    border: #ffbc0d; font-family:  RobotoDraft,arial,sans-serif;
+}
+.location {
+    font-family: RobotoDraft,arial,sans-serif; font-size: 0.8em; display: flex; align-items: center;
+}
+.location img { height: 20px; margin-right: 5px;}
+.location{    color: #006bae;}
+
+.sec_2 { display: flex; justify-content: space-between; align-items: center;
+    width: 79%;
+}
+.sec_2 a{ text-decoration: none; font-family: RobotoDraft,arial,sans-serif; color: #424242;
+    font-size: 1.09em;
+}
+
+.banner {
+     margin: 100px; display: flex; justify-content: space-between;
+}
+.banner_1 {width: 65%;}
+.banner_1 img {width: 100%;}
+.banner_bold { font-size: 2em; font-weight: 900; font-family:  RobotoDraft,arial,sans-serif;}
+.banner_mild { font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif; margin-bottom: 5px;}
+.banner_small { font-size: 0.6em; font-family:  RobotoDraft,arial,sans-serif; margin-bottom: 4px;}
+.mild { margin-top: 20px; margin-bottom: 20px;}
+.but_2 { width: 180px; height: 45px; background-color: #ffbc0d; border-radius: 5px;
+    border: #ffbc0d; font-size: 1em; font-family: Arial, Helvetica, sans-serif; margin-top: 2em;
+}
+.banner_mild_2 { font-family:  RobotoDraft,arial,sans-serif; margin-bottom: 7px; font-size: 0.9em;}
+.banner_3 {width: 30%;}
+.banner_3 img{width:100% ;}
+.banner_mild_3 { font-family:  RobotoDraft,arial,sans-serif; margin-bottom: 5px; font-size: 15.3px;}
+.banner_mild_3 a{    color: #006bae;}
+.banner_mild a{    color: #006bae;}
+
+.foot {
+    width: 85%; display: flex; justify-content: space-between; margin: auto;
+}
+.foot a{text-decoration: none; font-family:  RobotoDraft,arial,sans-serif; color: #424242; font-size: 15.3px;
+}
+.foot_bold {font-weight: 900; margin-bottom: 1.1em;}
+.foot_1 a{line-height: 1.8em;}
+.foot_2 { line-height: 1.8em;}
+.foot_3 { line-height: 1.8em;}
+.foot_4 { line-height: 1.8em;}
+.foot_cut { line-height: 1.8em;}
+
+.footer_2{
+    display: flex; justify-content: space-between; width: 85%; margin: auto; margin-top: 2em;
+    margin-bottom: 2em;
+}
+.footer_1 img{ margin-right: 20px;}
+
+.line:before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 88%;
+    background-color: #d1cccc;
+    margin: auto;
+    }
+
+.lower {display: flex; justify-content: space-between; width: 88%; margin: auto;}
+.lower_1 {display: flex; justify-content: space-between;  margin-top: 3em; width: 57%;}
+.lower_2 {display: flex; justify-content: space-between; align-items: center;  margin-top: 3em; font-family:  
+    RobotoDraft,arial,sans-serif; font-size: 0.95em;}
+.lower_1 a{ text-decoration: none; font-family:  RobotoDraft,arial,sans-serif; font-size: 0.95em;
+        color: #424242;}
+.lower_2 img{ height: 30px; margin-right: 1em;}
+.lower_3 { width: 30%; display: flex; justify-content: space-between; margin-left: 80px; margin-top: 20px; height: 150px;}
+.lower_3 a{
+    text-decoration: none; font-family:  RobotoDraft,arial,sans-serif; font-size: 0.95em;
+        color: #424242;
+}
+
+
+            /* ABOUT PAGE STARTS HERE */
+
+
+.about {font-family:  RobotoDraft,arial,sans-serif; font-weight: 800; 
+    font-size: 3em; text-align: center; margin-top: 1.7em; margin-bottom: 0.4em;}
+.about-img { width: 87%; margin: auto; height: 650px;}
+.about-img img{width: 100%;}
+.about_2 {height: 250px; width: 87%; margin: auto;}
+.about_bold { font-family:  RobotoDraft,arial,sans-serif; font-weight: 800; 
+    font-size: 2em; margin-bottom: 0.8em;}
+.about_small {font-family:  Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+     font-size: 15.7px; letter-spacing: -.15px; line-height: 24px;
+    }
+
+.storage { 
+    display: flex; width: 87%; margin: auto; justify-content: space-between; height: 730px;
+}
+.storage_1 { width: 49%;}
+.storage_1 img{ width: 100%;}
+.storage_2 img{ width: 100%;}
+.storage_2 { width: 49%;}
+.storage_bold {
+    font-family:  RobotoDraft,arial,sans-serif; font-weight: 500; 
+    font-size: 2em; margin-bottom: 0.8em; margin-top: 1em;
+}
+.storage_small {
+    font-family:  Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+     font-size: 15.7px; letter-spacing: -.15px; line-height: 24px;
+}
+.tiny {
+    font-family:  Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-size: 0.6em; margin-top: 0.2em;
+}
+.storage_tiny { margin-top: 1.2em;}
+.but_3 {
+    width: 150px; height: 45px; background-color: #ffbc0d; border-radius: 5px;
+    border: #ffbc0d; font-size: 1.2em; font-family: Arial, Helvetica, sans-serif; margin-top: 2em;
+}
+.but_4 {
+    width: 150px; height: 45px; background-color: #ffbc0d; border-radius: 5px;
+    border: #ffbc0d; font-size: 1.2em; font-family: Arial, Helvetica, sans-serif; margin-top: 4em;
+}
+
+
+                /* Download Page Starts Here */
+
+.mall {
+    display: flex; width: 87%; margin: auto; height: 500px;
+}
+.mall_bold {
+    font-family:  RobotoDraft,arial,sans-serif; font-weight: 800; 
+    font-size: 3em; font-weight: 900; line-height: 50px;
+}
+.mall_small {
+    font-family:  Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+     font-size: 15.7px; letter-spacing: -.15px; line-height: 24px; margin-top: 3em; margin-bottom: 1em;
+}
+.mall_img img{ height: 30px; margin-right: 15px;}
+.about_small a{ color: #006bae;}
